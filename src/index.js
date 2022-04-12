@@ -1,1 +1,3 @@
-console.log('Hello Rivne!!!')
+import './scss/index.sass';
+
+console.log('Putin Huilo!!!');
