@@ -17,5 +17,7 @@ module.exports = {
     'indent': ['error', 2],
     'semi': 1,
     'comma-dangle': 1,
+    'no-debugger': 0,
+    'linebreak-style': ['error', 'windows'],
   },
 };
