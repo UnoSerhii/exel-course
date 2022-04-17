@@ -19,5 +19,6 @@ module.exports = {
     'comma-dangle': 1,
     'no-debugger': 0,
     'linebreak-style': ['error', 'windows'],
+    'object-curly-spacing': 0,
   },
 };
