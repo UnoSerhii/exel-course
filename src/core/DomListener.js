@@ -15,8 +15,8 @@ export class DomListener {
       const method = getMethodName(listener);
       if (!this[method]) {
         const name = this.name || '';
-        throw new Error(`Method ${method} is not implented
-        in ${name} Component`);
+        throw new Error(`Method ${method}
+        is not implented in ${name} Component`);
       }
       this.$root.on(listener, this[method].bind(this));
     });
